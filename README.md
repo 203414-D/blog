@@ -1,2 +1,2 @@
 # blog
-proyecto blog
+proyecto Blogspot

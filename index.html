@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img class="imagen" src="./assets/img/logo.png" alt="Logo de la marca">
+        <span class="titulo"><h1>Los Sprites y la magia en los videojuegos</h1></span> 
+        </div>
+        <nav>
+            <ul class="header-nav box"> 
+                <li class="header-nav_item"><a href="">Home</a></li>
+                <li class="header-nav_item"><a href="">acerca de</a></li>
+                <li class="header-nav_item"><a href="">galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <div class="Contenido">
+            <h1><span>¿Que es un sprite?</span> </h1>
+            <p class="parrafo">Los Sprites, son un tipo de mapa de bits dibujados en la pantalla del ordenador por hardware grafico especializado, sin cálculos adicionales de la CPU. estos suelen ser pequeños
+                y parcialmente transparentes,permitiendoles adoptar formas mas alla del rectangulo; Típicamente, los sprites son usados en videojuegos para crear los gráficos de Por ejemplo, los personajes de Mario podrían ser sprites. 
+                Generalmente son utilizados para producir una animación, como un personaje corriendo, alguna expresión facial o un movimiento corporal.Los sprites han ido evolucionando a lo largo de la historia de los videojuegos. 
+                En un principio, mientras algunos eran generados a computador, 
+                otros eran dibujados a mano para ser posteriormente traspasados al computador
+            </p>
+            <p class="centrar"><img class="mario"  src="./assets/img/mario.png" alt="mario"></p>
+            <h6><p class="mesaje">Sprite de mario.</p></h6>
+            <h2><span>Proceso de animacion de un Sprite.</span></h2>
+            <h3><span>KeyFrames.</span></h3>
+            <p class="parrafo">Un KeyFrame (o fotograma clave) en la animación y la realización de sprites es un dibujo o toma que define los puntos de inicio y finalización de cualquier transición suave. Estos se denominan fotogramas porque su posición en el tiempo se mide en fotogramas en una tira de película o en una línea de tiempo de edición de video digital. 
+                    Una secuencia de fotogramas clave define qué movimiento verá el espectador,
+                 mientras que la posición de los fotogramas clave en el Sprite, el video o la animación define la sincronización del movimiento. Debido a que solo dos o tres fotogramas clave en el lapso de un segundo no crean la ilusión de movimiento, los fotogramas restantes se llenan con "entremedios".</p>
+            <p class="centrar"><img class="key" src="./assets/img/key.png" alt="key"></p>
+            <h6><p class="mesaje">Fotogramas para la creacion de una animacion.</p></h6>
+            <h3><span>La sensacion de impacto y velocidad.</span> </h3>
+            <h3><span>La anticipacion.</span> </h3> 
+            <p class="parrafo"> La anticipacion, son aquellos frames, los cuales sirven para marcar el inicio de una animacion, evitando que las animaciones sean demasiado rapidas.</p>
+            <p class="centrar"><img class="terry" src="./assets/img/terry.gif" alt="terry"></p>
+            <h6><p class="mesaje">Burning Knuckle de Terry Bogard</p></h6>
+            <p class="parrafo">como se puede apreciar, antes de la animacion principal Terry extiende sus brazos, estos frames en los que este los extiende sirven como los frames de anticipacion, lo cual indica al jugador que se realizara un ataque, permitiendole reaccionar a tiempo.</p>
+            <h3><span>El smear.</span></h3>
+            <p class="parrafo">A diferencia del movimiento tradicional en la animación, que utiliza fotogramas clave (para trazar puntos de inicio / finalización) y fotogramas intermedios (para crear la ilusión de movimiento), 
+                un "smear" representa un "desenfoque" rápido de movimiento en un solo fotograma.
+            </p> 
+            <p class="parrafo"> En lugar de dibujar un sujeto perfecto que se mueve a través de una acción en docenas de poses fotograma a fotograma, las manchas de animación logran la ilusión de movimiento en un solo fotograma, o una pequeña serie de fotogramas, 
+                colocados entre fotogramas clave típicos. Este "desenfoque" crea la sensación de un repentino estallido de velocidad que le da a la animación una sensación de ritmo y acción frenéticos que la cuidadosa animación de fotogramas clave no coincide del todo. 
+                La mejor parte es que nuestros ojos ni siquiera nota la diferencia.
+            </p>
+            <p class="parrafo">he aqui unos ejemplos de la utilizacion del smear en algunos sprites: </p>
+            <p class="centrar"><img class="img" src="./assets/img/Felicia.PNG" alt="Felicia"></p>
+            <h6><p class="mesaje">Felicia en DarkStalkers.</p></h6>
+            <p class="centrar"><img class="img"src="./assets/img/cap.PNG" alt="cap"></p>
+            <h6><p class="mesaje">Capitan America en Marvel vs Capcom.</p></h6>
+            <p class="centrar"><img class="img" src="./assets/img/necro.PNG" alt="necro"></p>
+            <h6><p class="mesaje">necro en Street Fighter III: Second Impact.</p></h6>
+            <p class="centrar"><img class="mak" src="./assets/img/smear.jpg" alt="smear"></p>
+            <h6><p class="mesaje">Makoto en Street Fightet III: Third Strike.</p></h6>
+            <h3>Overshooting.</h3>
+            <p class="parrafo">El overshooting es cuando se agregan frames al final de una animacion, esto le dara una sensacion de impacto al movimiento que hayamos animado, esto se puede apreciar en una animacion de correr, ya que al momento de parar, este no para inmediatamente
+                si no que hay unos frames extras al final de la animacion, los cuales dan la sensacion de que se estaba corriendo con una gran fuerza y velocidad.
+            </p>
+            <p class="centrar"><img class="over" src="./assets/img/overshoot.PNG" alt="overshoot"></p>
+            <h6><p class="mesaje">golpe aereo de Makoto.</p></h6>
+            <p class="centrar"> <img class="Makoto" src="./assets/img/Makoto.gif" alt="Makoto_Jump_lp"></p>
+            <h6><p class="mesaje">Animacion completa.</p></h6>
+            <p class="parrafo">como se puede apreciar al final de la animacion del golpe que realiza Makoto, las mangas de su gi de karate, se mueven debido a la velocidad y fuerza del golpe, sumado a esto, antes de estos frames se logra apreciar la utilizacion del smear asi como la deformacion de su brazos
+                lo cual le agrega mas impacto al movimiento.
+            </p>
+            <h3>Romper el cuerpo.</h3>
+            <p>La accion de romper el cuerpo, no es nada mas que alejarse de la anatomia y movimientos reales, para asi agragar, impacto y velocidad a los movimientos, esto se hace para hacer que cada accion realizada se sienta mas satisfactoria al realizarla, asi como agregarle valor a la animacion.</p>
+            <p class="Bbody"><img src="./assets/img/sal.jpg" alt="sBG"></p>
+            <h6><p class="mesaje">Sol Badguy en Guilty Gear.</p></h6>
+            <p class="parrafo">como se puede apreciar, tanto su cabeza, su torzo asi como alguna de las extremidades de Sol BadGuy estan en posiciones los cuales son anatomicamente imposibles, el hacer esto agrega a la animacion la sensacion de que este ha recibido un golpe tan fuerte que ha hecho que su cuerpo se contorsione de manera extraña</p>
+            <h3><span>Utilizacion del 3D en la creacion de spites mas detallados.</span></h3>
+            <p class="parrafo">La gente suele pensar que un juego 3D es más avanzado técnicamente que un juego 2D. De hecho, se podría argumentar que es todo lo contrario. Los juegos 3D son, en efecto,son más similares a los títeres. Un modelo solo necesita la aplicación de las matemáticas para dictar el movimiento. Los juegos 2D requieren mucho más arte para trabajar. 
+                Si desea realizar un cambio de movimiento, no puede simplemente asignar el punto X para moverse al punto Y en el tiempo Z. Tienes que dibujar los marcos individualmente.</p>
+            <p class="parrafo">Cuando se desarrolla un juego 2D, tomar dibujos conceptuales y convertirlos en sprites es un proceso minucioso. Un equipo formado por varios artistas trabaja en un personaje, lo que inevitablemente conduce a diferencias estilísticas. Luego, estos deben combinarse en un diseño de personaje consistente para animar correctamente.</p>
+            <p class="parrafo">sin embargo se ha desarrollado una tecnica mediante la cual, se puede animar un sprite sin que haya diferencias entre cada fotograma debido a que diferentes personas trabajan en el mismo sprite, esta tecnica consiste en la utilizacion de un modelo 3D el cual sirve como base para crear los frames en 2D.</p>
+            <p class="parrafo">pasos a seguir: </p>
+            <p class="parrafo"><b>Creacion de un concepto 2D:</b></p>
+            <p class="parrafo">Creacion de un concepto 2D para cada personaje, los conceptos de personajes 2D, se basan en los diseños preliminares del director de arte, formando la base de todo lo demas. Estos conceptos, dibujados pueden adecuarse al formato pixel-art, tardando en completarse alrededor de tres dias por personaje. </p>
+            <p class="Ash"><img src="./assets/img/1.PNG" alt=""></p>
+           <h6><p class="mesaje">concepto 2D. </p></h6> 
+           <p class="parrafo"><b>Creacion de un modelo 3D:</b> </p>
+           <p class="parrafo">A continuacion, se utilizan herramientas 3D para tomar los conceptos de personajes de pixeles 2D y convertirlos en modelos 3D. Esto lleva alrededor de dos semanas de desarrollo por personaje. Posterormente, una seccion del equipo de desarrollo crea las animaciones ajustandolas al estilo visual y a la sensacion general del juego.</p>
+           <p class="Ash"><img src="./assets/img/2.jpg" alt=""></p>
+           <h6><p class="mesaje">modelo 3D. </p></h6> 
+           <p class="parrafo"><b>Dibujar los elementos visuales 2D basados en la la animacion 3D:</b></p>
+           <p class="parrafo">tomando como base las animacion ya hechas,se seleccionan aquellas las cuales e adaptan mejor a los elementos 2D. Estas animaciones se renderizan en cuadros estaticos 2D, creando una base aproximada para los graficos de pixeles 2D. </p>
+           <p class="Ash"><img src="./assets/img/3.PNG" alt=""></p>
+           <h6><p class="mesaje">dibujo 2D tomando como base el modelo 3D. </p></h6> 
+           <p class="parrafo"><b>Creacion de conceptos finales en 2D:</b></p>
+           <p class="parrafo">se utilizan las imagenes creadas en los pasos anteriores, para dibujar(en forma de pixel) el arte conceptual de los movimientos de cada personaje. </p>
+           <p class="Ash"><img src="./assets/img/4.PNG" alt=""></p>
+           <h6><p class="mesaje">ultimos detalles 2D.</p></h6> 
+           <p class="parrafo"><b>Crear un personaje Alfa:</b></p>
+           <p class="parrafo">Se utilizan los datos de animacion de personajes creados en los pasos anteriores para dibujar en 2D, los conceptos finales,como ajustar la postura del personaje, delinea los musculos y agrega pequeños toques como arrugas en la ropa y expreciones faciales.</p>
+           <p class="Ash"><img src="./assets/img/5.PNG" alt=""></p>
+           <h6><p class="mesaje">detalles agregados al personaje.</p></h6> 
+           <p class="parrafo"><b>Detalles del personaje y finalizacion:</b></p>
+           <p class="parrafo">Se agregan reflejos al personaje, expresando completamente la forma y textura de los musculos, la ropa y otros detalles. Este es el punto en el que se mezaclan colores diferentes, para agregar sombras al personaje, este proceso puede durar seis meses por personaje.</p>
+           <p class="Ash"><img src="./assets/img/5.gif" alt=""></p>
+           <h6><p class="mesaje">Sprite terminado.</p></h6> 
+           <p class="parrafo">aqui algunos ejemplos de  otros sprites que utilizan esta tecnica:</p>
+           <p class="Ash"><img src="./assets/img/Ash.gif" alt="Ash crimson"></p>
+            <h6><p class="mesaje">Ash Crimson en KOF XIII.</p>
+            <p class="cost"><img class="cost"src="./assets/img/Hazama.gif" alt="Hazama"></p>
+            <h6><p class="mesaje">Hazama en BlazeBlue.</p></h6></div>
+            <p class="parrafo">Si bien, los resultados son facinantes ya que se obtienen sprites muy bien animados, con detalles espectaculares. Actualmente muy pocas compañias son capazes de utilizarla, ya que este es un proceso largo y costoso y en una industria en la que se busca maximizar ganancias, como lo es la industria del videojuego, este proceso no es nada rentable, ya que si no se tienen buenas ventas,
+                puede significar perdidas millonarias para la empresa, llevandola incluso a la bancarrota, debido a todo esto la gran mayoria de videojuegos obtan por el 3D, ya que el mercado ha cambiado; No importa que tan bello se el videojuego en 2D, si no se cuenta con ventas garantizadas, este sera un rotundo fracaso.
+            </p>
+    </main>
+    <footer> 
+        <ul class="footer-box">
+                <li class="footer-item">Redes Sociales: </li>
+                <li class="footer-item"><a href="">Facebook</a></li>
+                <li class="footer-item"><a href="">Twitter</a></li>
+                <li class="footer-item"><a href="">Youtube</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
